@@ -1,0 +1,8 @@
+name: xiaomi_mimo_token_plan
+title: Xiaomi MiMo Token Plan
+description: Adds Xiaomi MiMo Token Plan EU/AMS as an OpenAI-compatible LLM provider
+  for Agent Zero.
+version: 1.0.0
+settings_sections: []
+per_project_config: false
+per_agent_config: false
