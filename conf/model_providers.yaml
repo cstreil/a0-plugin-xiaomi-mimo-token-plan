@@ -3,15 +3,8 @@ chat:
     name: Xiaomi MiMo Token Plan
     litellm_provider: openai
     models_list:
-      endpoint_url: "/models"
-      default_base: "https://token-plan-ams.xiaomimimo.com/v1"
-      format: "openai"
+      endpoint_url: /models
+      default_base: https://token-plan-ams.xiaomimimo.com/v1
+      format: openai
     kwargs:
-      api_base: "https://token-plan-ams.xiaomimimo.com/v1"
-
-embedding:
-  xiaomi_mimo_token_plan:
-    name: Xiaomi MiMo Token Plan
-    litellm_provider: openai
-    kwargs:
-      api_base: "https://token-plan-ams.xiaomimimo.com/v1"
+      api_base: https://token-plan-ams.xiaomimimo.com/v1
